@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollIndicators="right"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    tools:context=".SortActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_bubble_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewBubbleSort"
+                android:text="@string/bubble_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_shaker_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewShakerSort"
+                android:text="@string/shaker_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_comb_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewCombSort"
+                android:text="@string/comb_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_insertion_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewInsertionSort"
+                android:text="@string/insertion_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_shell_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewShellSort"
+                android:text="@string/shell_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_tree_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewTreeSort"
+                android:text="@string/tree_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_gnome_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewGnomeSort"
+                android:text="@string/gnome_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_selection_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewSelectionSort"
+                android:text="@string/selection_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_heap_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewHeapSort"
+                android:text="@string/heap_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_quick_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewQuickSort"
+                android:text="@string/quick_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_merge_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewMergeSort"
+                android:text="@string/merge_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_counting_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewCountingSort"
+                android:text="@string/counting_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_bucket_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewBucketSort"
+                android:text="@string/bucket_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_radix_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewRadixSort"
+                android:text="@string/radix_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_LSD_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewLSDSort"
+                android:text="@string/LSD_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_MSD_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewMSDSort"
+                android:text="@string/MSD_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_Bitonic_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewBitonicSort"
+                android:text="@string/Bitonic_sort"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_Tim_sort"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewTimSort"
+                android:text="@string/Tim_sort"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

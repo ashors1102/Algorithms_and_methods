@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollIndicators="right"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    tools:context=".ProtectHackActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_Cryptograph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewCryptograph"
+                android:text="@string/Cryptograph"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_Attacks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:lineSpacingExtra="0.500sp"
+                android:onClick="clickTextViewAttacks"
+                android:text="@string/Attacks"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_Steganography"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewSteganography"
+                android:text="@string/Steganography"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_FamAlgorithms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewFamAlgorithms"
+                android:text="@string/FamAlgorithms"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_NewAlgorithms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewNewAlgorithms"
+                android:text="@string/NewAlgorithms"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView_Auth_and_hashfunc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10sp"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:onClick="clickTextViewAuth_and_hashfunc"
+                android:text="@string/Auth_and_hashfunc"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

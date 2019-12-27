@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Algorithms and Methods</string>
+    <string name="start_string">Алгоритмы и Методы</string>
+    <string name="button_sort">Сортировка</string>
+    <string name="button_protect_hack">Защита информации и ее взлом</string>
+    <string name="button_fun">Разное</string>
+    <string name="bubble_sort">Сортировка пузырьком/Bubble sort</string>
+    <string name="shaker_sort">Шейкерная сортировка/Shaker sort</string>
+    <string name="comb_sort">Сортировка расческой/Comb sort</string>
+    <string name="insertion_sort">Сортировка вставками/Insertion sort</string>
+    <string name="shell_sort">Сортировка Шелла/Shell sort</string>
+    <string name="tree_sort">Сортировка деревом/Tree sort</string>
+    <string name="gnome_sort">Гномья сортировка/Gnome sort</string>
+    <string name="selection_sort">Сортировка выбором/Selection sort</string>
+    <string name="heap_sort">Пирамидальная сортировка/Heap sort</string>
+    <string name="quick_sort">Быстрая сортировка/Quick sort</string>
+    <string name="merge_sort">Сортировка слиянием/Merge sort</string>
+    <string name="counting_sort">Сортировка подсчетом/Counting sort</string>
+    <string name="bucket_sort">Блочная сортировка/Bucket sort</string>
+    <string name="radix_sort">Поразрядная сортировка/Radix sort</string>
+    <string name="LSD_sort">LSD (least significant digit)</string>
+    <string name="MSD_sort">MSD (most significant digit)</string>
+    <string name="Bitonic_sort">Битонная сортировка/Bitonic sort</string>
+    <string name="Tim_sort">Timsort</string>
+    <string name="Cryptograph">Введение в криптографию</string>
+    <string name="Attacks">Атаки</string>
+    <string name="Steganography">Стеганография</string>
+    <string name="FamAlgorithms">Известные алгоритмы</string>
+    <string name="NewAlgorithms">Новые алгоритмы</string>
+    <string name="Auth_and_hashfunc">Аутентификация и хэш-функции</string>
+</resources>
